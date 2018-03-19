@@ -50,7 +50,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -61,9 +61,9 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-你好，Hexo" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-Angular2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/03/19/你好，Hexo/" class="article-date">
+    <a href="/2018/03/19/Angular2/" class="article-date">
   <time datetime="2018-03-19T03:15:12.000Z" itemprop="datePublished">2018-03-19</time>
 </a>
     
@@ -75,7 +75,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2018/03/19/你好，Hexo/">你好，Hexo</a>
+      <a class="article-title" href="/2018/03/19/Angular2/">开始Angular2</a>
     </h1>
   
 
@@ -83,12 +83,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>我正在学习Angular2<br>加油！！！</p>
+        <p>一、开发环境</p>
+<p>Angular CLI: 命令行接口工具，能够创建工程，增加文件，执行一系列开发任务：测试，编译，部署等。</p>
+<p>第一步： 建立开发环境<br>首先安装Node.js 和npm，然后安装Angular CLI.<br>npm install -g @angular/cli</p>
+<p>第二步： 创建新工程<br>Ng new my-app</p>
+<p>第三步：发布<br>Cd my-app<br>Ng server –open //ng server 命令发布服务器，查看文件，重新编译…</p>
+<p>用<a href="http://localhost:4200/可以在浏览器打开你的app" target="_blank" rel="noopener">http://localhost:4200/可以在浏览器打开你的app</a></p>
+<p>二、生产环境<br>A.最简单的部署：build, copy to web server<br>1.Ng build<br>2.拷贝dist/所有的文件到服务器上的目录<br>3.如果要把文件到服务器上的子目录，需要加上build flag, –base-href<br>  比如/my/app/index.html， 要用ng build –base-href=/my/app<br>4.配置服务器</p>
+<p>B.生产环境的优化部署<br>1.Ng build –prod<br>  –prod: 1) 预编译（AOT） 2) 生产模式 3）捆绑 4）最小化 5）丑化 6）除去无用代码</p>
+<p>2.拷贝dist/所有的文件到服务器上的目录<br>3.Config nginx.conf</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/19/你好，Hexo/" data-id="cjexse8y80001tgsswjlgkivw" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/03/19/Angular2/" data-id="cjexx15qe0000xssslhmg7fpr" class="article-share-link">Share</a>
       
       
     </footer>
@@ -133,7 +141,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/19/hello-world/" data-id="cjexse8y30000tgssynqnmifn" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/03/19/hello-world/" data-id="cjexx15qk0001xsssddw6y3sn" class="article-share-link">Share</a>
       
       
     </footer>
@@ -159,7 +167,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archiv</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
     </div>
@@ -169,12 +177,12 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">letzter Beitrag</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
           <li>
-            <a href="/2018/03/19/你好，Hexo/">你好，Hexo</a>
+            <a href="/2018/03/19/Angular2/">开始Angular2</a>
           </li>
         
           <li>
