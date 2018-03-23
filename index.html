@@ -50,7 +50,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Suche"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -60,6 +60,87 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-howtoUseHexo" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/23/howtoUseHexo/" class="article-date">
+  <time datetime="2018-03-23T02:09:08.130Z" itemprop="datePublished">2018-03-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/23/howtoUseHexo/">如何使用Hexo</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>在Hexo安装目录下，右边菜单Git Hash 进入cmd.</p>
+<p>启动服务器<br>$ hexo s </p>
+<p>部署到github上<br>$ hexo deploy</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/23/howtoUseHexo/" data-id="cjf3bd6cg0002ikssbeo7m9gy" class="article-share-link">Teilen</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-deployAppOnARM" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2018/03/23/deployAppOnARM/" class="article-date">
+  <time datetime="2018-03-23T02:06:57.492Z" itemprop="datePublished">2018-03-23</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2018/03/23/deployAppOnARM/">在ARM 上部署Angular2 application</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>On build system:</p>
+<p>Firstly  install nodejs which is prerequisites for Angular CLI.<br>1)     Download nodejs installer(Linux Binaries: node-v8.10.0-linux-x64.tar).<br>2)     Put it into /home/lisa.<br>3)     Tar nodejs installer:<br>$ tar –xvf node-v8.10.0-linux-x64.tar<br>4)     Rename folder name:<br>$ mv node-v8.10.0-linux-x64.tar nodejs<br>5)     Create soft link to config global path:<br>$ ln –s /home/lisa/nodejs/bin/node /usr/local/bin/node<br>$ ln –s /home/lisa/nodejs/bin/npm /usr/local/bin/npm<br>6)     Check if configuration is ok<br>$ node –v<br>$ npm –v</p>
+<p>Secondly install typescript which is prerequisites for Angular CLI.<br>7)     $ npm intall –g typescript</p>
+<p>Thirdly install Angular CLI.<br>8)     $ npm intall –g @angular/cli<br>9)     $ ng v<br>Until this step, Angular CLI should be installed successfully.</p>
+<p>Fourthly build application.<br>10)            Copy demo application to /home/lisa/myapp.<br>11)            Cd myapp, build application.<br>$ ng build –prod<br>Then dist will be added under myapp folder. In folder dist, there are css, js, html files.</p>
+<p>On ARM system:<br>12)            Copy above dist to one folder, like /home/lisa/.<br>13)            Modify nginx.conf, Set root redirect to “/home/lisa/dist”.<br>14)            Start nginx. Ok.<br>You can open browser and access <a href="http://ip" target="_blank" rel="noopener">http://ip</a>. Demo application is running.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2018/03/23/deployAppOnARM/" data-id="cjf3bd6ch0003ikssc3dtd6n6" class="article-share-link">Teilen</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-Angular2" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -96,7 +177,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/19/Angular2/" data-id="cjexx15qe0000xssslhmg7fpr" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/03/19/Angular2/" data-id="cjf3bd6c90000ikssi0ns0bj2" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -141,7 +222,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/19/hello-world/" data-id="cjexx15qk0001xsssddw6y3sn" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2018/03/19/hello-world/" data-id="cjf3bd6ce0001ikss6nuct2zt" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -167,7 +248,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archives</h3>
+    <h3 class="widget-title">Archiv</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/03/">March 2018</a></li></ul>
     </div>
@@ -177,9 +258,17 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recent Posts</h3>
+    <h3 class="widget-title">letzter Beitrag</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2018/03/23/howtoUseHexo/">如何使用Hexo</a>
+          </li>
+        
+          <li>
+            <a href="/2018/03/23/deployAppOnARM/">在ARM 上部署Angular2 application</a>
+          </li>
         
           <li>
             <a href="/2018/03/19/Angular2/">开始Angular2</a>

@@ -5,18 +5,18 @@
   
 
   
-  <title>Hello World | Hexo</title>
+  <title>在ARM 上部署Angular2 application | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="On build system: Firstly  install nodejs which is prerequisites for Angular CLI.1)     Download nodejs installer(Linux Binaries: node-v8.10.0-linux-x64.tar).2)     Put it into /home/lisa.3)     Tar no">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://yoursite.com/2018/03/19/hello-world/index.html">
+<meta property="og:title" content="在ARM 上部署Angular2 application">
+<meta property="og:url" content="http://yoursite.com/2018/03/23/deployAppOnARM/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
-<meta property="og:updated_time" content="2018-03-19T02:39:56.920Z">
+<meta property="og:description" content="On build system: Firstly  install nodejs which is prerequisites for Angular CLI.1)     Download nodejs installer(Linux Binaries: node-v8.10.0-linux-x64.tar).2)     Put it into /home/lisa.3)     Tar no">
+<meta property="og:updated_time" content="2018-03-23T02:08:46.502Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta name="twitter:title" content="在ARM 上部署Angular2 application">
+<meta name="twitter:description" content="On build system: Firstly  install nodejs which is prerequisites for Angular CLI.1)     Download nodejs installer(Linux Binaries: node-v8.10.0-linux-x64.tar).2)     Put it into /home/lisa.3)     Tar no">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -63,10 +63,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-deployAppOnARM" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2018/03/19/hello-world/" class="article-date">
-  <time datetime="2018-03-19T02:39:56.920Z" itemprop="datePublished">2018-03-19</time>
+    <a href="/2018/03/23/deployAppOnARM/" class="article-date">
+  <time datetime="2018-03-23T02:06:57.492Z" itemprop="datePublished">2018-03-23</time>
 </a>
     
   </div>
@@ -77,7 +77,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      在ARM 上部署Angular2 application
     </h1>
   
 
@@ -85,20 +85,17 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>On build system:</p>
+<p>Firstly  install nodejs which is prerequisites for Angular CLI.<br>1)     Download nodejs installer(Linux Binaries: node-v8.10.0-linux-x64.tar).<br>2)     Put it into /home/lisa.<br>3)     Tar nodejs installer:<br>$ tar –xvf node-v8.10.0-linux-x64.tar<br>4)     Rename folder name:<br>$ mv node-v8.10.0-linux-x64.tar nodejs<br>5)     Create soft link to config global path:<br>$ ln –s /home/lisa/nodejs/bin/node /usr/local/bin/node<br>$ ln –s /home/lisa/nodejs/bin/npm /usr/local/bin/npm<br>6)     Check if configuration is ok<br>$ node –v<br>$ npm –v</p>
+<p>Secondly install typescript which is prerequisites for Angular CLI.<br>7)     $ npm intall –g typescript</p>
+<p>Thirdly install Angular CLI.<br>8)     $ npm intall –g @angular/cli<br>9)     $ ng v<br>Until this step, Angular CLI should be installed successfully.</p>
+<p>Fourthly build application.<br>10)            Copy demo application to /home/lisa/myapp.<br>11)            Cd myapp, build application.<br>$ ng build –prod<br>Then dist will be added under myapp folder. In folder dist, there are css, js, html files.</p>
+<p>On ARM system:<br>12)            Copy above dist to one folder, like /home/lisa/.<br>13)            Modify nginx.conf, Set root redirect to “/home/lisa/dist”.<br>14)            Start nginx. Ok.<br>You can open browser and access <a href="http://ip" target="_blank" rel="noopener">http://ip</a>. Demo application is running.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2018/03/19/hello-world/" data-id="cjf3bd6ce0001ikss6nuct2zt" class="article-share-link">Teilen</a>
+      <a data-url="http://yoursite.com/2018/03/23/deployAppOnARM/" data-id="cjf3bd6ch0003ikssc3dtd6n6" class="article-share-link">Teilen</a>
       
       
     </footer>
@@ -107,15 +104,20 @@
     
 <nav id="article-nav">
   
-    <a href="/2018/03/19/Angular2/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2018/03/23/howtoUseHexo/" id="article-nav-newer" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Neuer</strong>
       <div class="article-nav-title">
         
-          开始Angular2
+          如何使用Hexo
         
       </div>
     </a>
   
+  
+    <a href="/2018/03/19/Angular2/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Älter</strong>
+      <div class="article-nav-title">开始Angular2</div>
+    </a>
   
 </nav>
 
